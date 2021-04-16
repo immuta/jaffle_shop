@@ -13,9 +13,13 @@ models:
 
       - name: first_name
         description: Customer's first name. PII.
+        tags:
+          - contains_pii
 
       - name: last_name
         description: Customer's last name. PII.
+        tags:
+          - contains_pii
 
       - name: first_order
         description: Date (UTC) of a customer's first order
