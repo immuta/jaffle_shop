@@ -2,11 +2,17 @@ version: 2
 
 models:
   - name: stg_customers
+    description: holla
+    tags:
+      - coca-cola
     columns:
       - name: customer_id
+        description: Lola is awesome!
         tests:
           - unique
           - not_null
+        tags:
+          - Today is Thursday
 
   - name: stg_orders
     columns:
