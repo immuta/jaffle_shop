@@ -1,3 +1,6 @@
+{{ config(
+  tags=["finance"]
+) }}
 with source as (
 
     {#-
