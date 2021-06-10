@@ -36,14 +36,14 @@ models:
         description: Total value (AUD) of a customer's orders
 
   - name: orders
-    description: This table has basic information about orders, as well as some derived facts based on payments
+    description: This table has basic information about orders, as well as some derived facts based on payments. CSH was here 061021!!
 
     columns:
       - name: order_id
         tests:
           - unique
           - not_null
-        description: This is a unique identifier for an order
+        description: This is a unique identifier for an order. CSH was here too!
 
       - name: customer_id
         description: Foreign key to the customers table
