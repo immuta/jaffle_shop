@@ -86,3 +86,15 @@ models:
         description: Amount of the order (AUD) paid for by gift card
         tests:
           - not_null
+
+  - name: stg_customers 
+    description: This is staged data, woot!!  CSH WAS HERE 061021!!
+
+    columns:
+      - name: customer_id
+        description: Lola is awesome!
+        tests:
+          - unique
+          - not_null
+        tags:
+          - Today is Thursday 
