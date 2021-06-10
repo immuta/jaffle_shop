@@ -89,6 +89,8 @@ models:
 
   - name: stg_customers 
     description: This is staged data, woot!!  CSH WAS HERE 061021!!
+    tags:
+      - It is afternoon
 
     columns:
       - name: customer_id
