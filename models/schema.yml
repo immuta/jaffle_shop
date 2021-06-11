@@ -36,7 +36,6 @@ models:
         description: Total value (AUD) of a customer's orders
 
   - name: orders
-    description: This table has basic information about orders, as well as some derived facts based on payments. CSH was here 061021!!
 
     columns:
       - name: order_id
