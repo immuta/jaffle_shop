@@ -24,7 +24,8 @@ models:
       - name: first_order
         description: Date (UTC) of a customer's first order. CSH was here too!!
         tags:
-          - cats_060721
+          - cats_060721_updated
+          - cats_061121
 
       - name: most_recent_order
         description: Date (UTC) of a customer's most recent order
