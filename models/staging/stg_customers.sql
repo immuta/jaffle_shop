@@ -1,5 +1,5 @@
 {{ config(
-  tags=["finance_updated"]
+  tags=[]
 ) }}
 with source as (
 
