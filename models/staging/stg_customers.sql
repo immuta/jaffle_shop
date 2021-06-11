@@ -15,7 +15,6 @@ renamed as (
 
     select
         id as customer_id,
-        first_name,
         last_name,
         first_name as other_name_2
 
