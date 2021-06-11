@@ -36,7 +36,7 @@ models:
         description: Total value (AUD) of a customer's orders
 
   - name: orders
-
+    description: TGIF!
     columns:
       - name: order_id
         tests:
