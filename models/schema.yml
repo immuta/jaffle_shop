@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: customers
-    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders. CSH WAS HERE 060721 and 6/18/21 and 6/21/21!!
+    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders. CSH WAS HERE 060721 and 6/18/21 and 6/21/21!! Part B!
 
     columns:
       - name: customer_id
