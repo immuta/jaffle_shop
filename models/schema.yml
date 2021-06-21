@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: customers
-    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders. CSH WAS HERE 060721 and 6/18/21!!
+    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders. CSH WAS HERE 060721 and 6/18/21 and 6/21/21!!
 
     columns:
       - name: customer_id
@@ -22,9 +22,10 @@ models:
           - contains_pii
 
       - name: first_order
-        description: Date (UTC) of a customer's first order. CSH was here too!! And 6/18/21!!
+        description: Date (UTC) of a customer's first order. CSH was here too!! And 6/18/21!! And 6/21/21!!
         tags:
           - cats_061121
+          - cats_062121
 
       - name: most_recent_order
         description: Date (UTC) of a customer's most recent order

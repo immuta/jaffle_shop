@@ -1,5 +1,5 @@
 {{ config(
-  tags=[]
+  tags=['cats_062121']
 ) }}
 with source as (
 
