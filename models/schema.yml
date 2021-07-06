@@ -22,7 +22,7 @@ models:
           - contains_pii
 
       - name: first_order
-        description: Date (UTC) of a customer's first order. CSH was here too!! And 6/18/21!! And 6/21/21!!
+        description: Date (UTC) of a customer's first order. CSH was here too!! And 6/18/21!! And 6/21/21!! And 7/7/21!!
         tags:
           - cats_061121
           - cats_062121
