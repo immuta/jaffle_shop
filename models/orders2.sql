@@ -1,6 +1,6 @@
 {% set payment_methods = ['credit_card', 'coupon', 'bank_transfer', 'gift_card'] %}
 
-with orders as (
+with orders2 as (
 
     select * from {{ ref('stg_orders') }}
 
@@ -32,10 +32,10 @@ order_payments as (
 final as (
 
     select
-        orders.order_id,
-        orders.customer_id,
-        orders.order_date,
-        orders.status,
+        orders2.order_id,
+        orders2.customer_id,
+        orders2.order_date,
+        orders2.status,
 
         {% for payment_method in payment_methods -%}
 
@@ -45,7 +45,7 @@ final as (
 
         order_payments.total_amount as amount
 
-    from orders
+    from orders2
 
     left join order_payments using (order_id)
 
