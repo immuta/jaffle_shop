@@ -16,7 +16,11 @@ clean-targets:
     - "dbt_modules"
     - "logs"
 
+seeds:
+  file_format: delta
+
 models:
+  file_format: delta
   jaffle_shop:
       materialized: table
       staging:
