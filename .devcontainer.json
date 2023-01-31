@@ -1,0 +1,11 @@
+{
+    "image": "ghcr.io/dbt-labs/dbt-snowflake:latest",
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "${localWorkspaceFolder}/.dbt/profiles.yml",
+            "target": "/root/.dbt/profiles.yml"
+        }
+    ],
+    "runArgs": ["--network=host"]
+}
